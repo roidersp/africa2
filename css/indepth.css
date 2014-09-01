@@ -1,0 +1,1160 @@
+.indepth_page{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+}
+
+.indepth_page_content{
+	background-color: white;
+	position: relative;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 810px;
+	z-index: 2;
+}
+
+.indepth_background{
+	bottom: -9999px;
+	left: -9999px;
+	margin: auto;
+	position: absolute;
+	right: -9999px;
+	top: -9999px;
+	z-index: 1;
+	height: 820px;
+	width: auto;
+}
+
+.indepth_background.indepth_align_top{
+	bottom: 0px;
+	top: 0px;
+	margin: 0 auto;
+}
+
+.indepth_video{
+	width:460px;
+	height:auto;
+	margin: auto;
+}
+
+.indepth_video iframe{
+	width:460px;
+	height:259px;
+margin: auto;
+}
+
+.indepth_video.down{
+	margin-top: 35px;
+} 
+
+.indepth_video.top{
+	margin-bottom: 35px;
+}
+
+.indepth_illustration{
+	position: absolute;
+}
+
+/*Propio del indepth*/
+#indepth_cover_view{
+	height: 817px;
+	position: fixed;
+	z-index: 0;
+	background: #141414;
+}
+
+#indepth_cover .indepth_background{
+		display: none;
+}
+
+#indepth_cover{
+	height: 757px;
+	background: #141414;
+}
+
+#indepth_cover .indepth_page_body{
+	top:480px;
+	position: relative;
+}
+
+#indepth_cover .indepth_titlle_container{
+	float: left;
+	width: 707px;
+}
+
+
+
+ #indepth_ver_texto{
+	display: inline-block;
+	padding: 3px 15px;
+	 background-color: rgba(0,0,0,0.25);
+	 border: 1px solid #FFF;
+	 color: #FFF;
+	 margin-top: 12px;
+	 cursor: pointer;
+	 font-family: "Roboto";
+	 font-weight: 300;
+	 font-size: 10px;
+	 border-radius: 5px;
+	 text-align: center;
+}
+
+#indepth_ver_texto:hover{
+	background-color: rgba(233,233,233,0.15);
+}
+
+#indepth_cover .indepth_title{
+	font-size:39px;
+	color:#FFF;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+#indepth_cover .indepth_subtitle{
+	font-size:17px;
+	color:#FFF;
+	font-family: "Roboto";
+		 font-weight: 400;
+
+}
+
+#indepth_cover .indepth_line_portada{
+	width: 90px;
+	border-bottom: 1px solid #414d1e;
+	margin: auto;
+	margin-top: 25px;
+}
+
+#indepth_cover .indepth_product{
+	float: right;
+	margin-top: 10px;
+	width: 103px;
+}
+
+.indepth_page_content .indepth_page_body{
+	padding: 60px 0;
+	position: relative;
+}
+
+.indepth_page_content .indepth_container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.indepth_page_content .indepth_title{
+	font-size:34px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 600;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_subtitle{
+	font-size:22px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 400;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #62977f;
+}
+
+.indepth_page_content .indepth_text{
+	font-size:18px; /* tamaño */
+	font-family: 'Roboto', sans-serif; /* nombre de la fuente */
+	color: #535252; /* color de la fuente*/
+	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
+	line-height: 28px;
+	font-weight: 400;
+}
+
+#indepth_intro{
+	position: relative;
+	background-color: #FCF9E6;
+	padding: 60px 0;
+}
+
+#indepth_intro .indepth_page_body{
+	position: relative;
+}
+
+#indepth_intro .indepth_intro_logo{
+	width:188px; 
+	height:146px;
+	margin: 10px auto;
+	margin-bottom: 30px;
+}
+
+#indepth_intro .indepth_text{
+	font-family: 'roboto';  /* nombre de la fuente */
+	color: #535535; /* color del texto */
+	width:100%;
+	max-width: 800px;
+	margin: auto;
+	text-align:justify;
+	font-weight: 400;
+}
+
+#indepth_page1{
+	background: #292929;
+	color: white;
+}
+
+#indepth_page1 .indepth_text{
+	color: white;
+}
+
+#indepth_page2{
+background: #FCF9E6;
+}
+
+.indepth_page_content .indepth_video{
+	width: 810px;
+	height: 446px;
+	margin: 25px 0;
+}
+
+.indepth_page_content .indepth_video iframe{
+	width: 100%;
+	height: 100%;
+	
+}
+
+ .indepth_quote{
+	font-family: 'Roboto';
+	font-size: 27px;
+	color: #000;
+	/*border-bottom: 2px solid #000;
+	border-top: 2px solid #000;*/
+	padding: 30px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.indepth_quote_right{
+	width: 330px;
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+
+
+
+.indepth_page_content .indepth_content_footer{
+	margin-top: 15px;
+}
+
+
+#indepth_more_texts{
+	background-color: #f8f8f8;
+}
+
+#indepth_more_texts .indepth_page_body{
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.indepth_more_title{
+	font-size: 24px;
+	text-align: center;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	margin: 15px auto;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	font-family: 'Roboto', sans-serif;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+#indepth_anuncio{
+	position: fixed;
+	z-index: 0;
+	top:0px;
+}
+#indepth_ads {
+	height: 100%;
+	width: 100%
+}
+
+.indepth_image_left{
+	float: left;
+margin-right: 20px;
+margin-top: 5px;
+}
+
+#indepth_ads #indepth_parallax_back{
+	
+}
+
+#indepth_ads #indepth_parallax_back {
+background-image: url("../images/nike_ad.jpg");
+background-size: 1920px;
+height: 600px;
+background-color: #DEF020;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 50% 50%;
+}
+
+#indepth_parallax_back {
+	height: 800px;
+	background-size: 1920px;
+	background-color: #000;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+}
+
+#indepth_cover #indepth_parallax_back{
+	background-image: url("../images/portada.jpg");
+	background-color: #141414;
+}
+
+
+
+/*MAPA*/
+
+.indepth_africa_mapa{
+	width: 810px;
+	height: 530px;
+	background-color: #292929;
+	position: relative;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.indepth_mapa_side{
+	height: 100;
+	position: relative;
+}
+
+.indepth_mapa_img{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	width:434px;
+	 height:483px; 
+	 display: none;
+}
+
+#indepth_mapa_img_0{
+	display: block;
+}
+
+#indepth_mapa_map{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	width:434px;
+	 height:483px; 
+	 display: none;
+	display: block;
+}
+
+#indepth_mapa_title{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+#indepth_mapa_title img{
+	width: 100%;
+}
+
+#indepth_mapa_text{
+	position: absolute;
+	height: 210px;
+	width: 520px;
+	color: #FCF9E6;
+	bottom: 0px;
+	left: 20px;
+	font-family: 'Roboto';
+	font-size: 21px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+#indepth_mapa_container_text{
+	width: 500%;
+	height: 100%;
+	position: relative;
+}
+
+.indepth_mapa_text_content{
+	width: 520px;
+	height: 100%;
+	float: left;
+}
+.indepth_mapa_text_title{
+	font-size: 38px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#indepth_mapa_controles{
+		width: 121px;
+		height: 34px;
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+	
+	#indepth_mapa_controles ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#indepth_mapa_controles li{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		list-style: none;
+		width: 26px;
+		height: 34px;
+		margin-right: 10px;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: hand;
+	}
+	
+	#indepth_mapa_controles li:last-child{
+		margin-right: 0px;
+	}
+	
+	#indepth_mapa_controles #rep{
+		width: 49px;
+		background-image:url("../images/btn_pause.png");	
+	}
+	
+	#indepth_mapa_controles #rep.pause{
+		background-image: url("../images/btn_play.png");
+	}
+	
+	#indepth_mapa_controles #prev{
+		background-image: url("../images/btn_back.png");
+		visibility: hidden;
+	}
+	
+	#indepth_mapa_controles #next{
+		background-image: url("../images/btn_next.png");
+	}
+
+	#indepth_mapa_paises{
+		position: absolute;
+		top: 20px;
+		right: 0px;
+		width:434px;
+		 height:483px; 
+	}
+	
+	#indepth_mapa_paises svg{
+		width: 100%;
+		height: 100%;
+		z-index: 50000;
+	}
+	.indepth_mapa_pais{
+		position: absolute;
+		border: 1px solid white;
+	}
+	
+	polygon:hover{
+		fill:white;
+	}
+	
+
+/*fin mapa*/
+
+#com .indepth_page_body{
+	padding: 0px;
+}
+
+#indepth_anuncio img{
+	width: 100%;
+	min-width:1920px;
+	height: auto;
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.indepth_anuncio_section .indepth_page_body{
+		position: relative;
+		display: table;
+		background: none;
+}
+		
+			
+.indepth_anuncio_section{
+	width: 100%;
+	height:500px;
+	min-height: 100%;
+	background: none;
+}
+
+
+#top-bar-wrapper {
+	background-color: #1C1C1C;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+#nav-bar-wrapper {
+display: none;
+}
+
+/****social*****/
+.indepth_home-element-social div{
+	float: left;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+.indepth_home-element-social{
+	width: 160px;
+	margin: 15px auto;
+	height: 30px;
+	
+}
+
+/**********************/
+
+
+/* Fix position of copy on big screens */
+@media screen and (min-width: 2341px) {
+	#indepth_footer .indepth_text{
+		text-align:left;
+		margin-left: -300px;
+	}
+}
+
+/* mobile adecuations */
+
+@media screen and (max-width: 1960px) {
+	min-width: 800px;
+}
+
+@media screen and (max-width: 1400px) {
+	#indepth_ads #indepth_parallax_back {
+			background-size: cover;
+		}
+}
+
+
+@media screen and (max-width: 810px) {
+	.indepth_page_content .indepth_video {
+		width: 100%;
+		height: 287px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.indepth_page{
+		width: 100%;
+		min-width: 320px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+	}
+
+	.indepth_pages img{
+		width: auto;
+	}
+	
+	.indepth_pages .indepth_page_content img{
+		width: 100%;
+	}
+
+	.indepth_more_container{
+		width: 264px;
+		margin: auto;
+	}
+	
+	#indepth_cover_view{
+		height: 817px;
+		z-index: 0;
+		margin-top: 0px;
+		background-color: rgba(255,255,255,0) 
+	}	
+	
+	.indepth_page_content .indepth_text{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 768px) and ( min-width: 640px) {
+	.indepth_page{
+		width: 100%;
+		min-width: 320px;
+		position: relative;
+		overflow: hidden;
+	}
+
+
+	#indepth_cover .indepth_page_body {
+	top: 400px;
+	position: relative;
+	margin-left: 2%;
+	}
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+
+
+	#indepth_cover_view .indepth_background{
+		display: block;
+		right: -9840px;
+		height: 640px;
+		bottom: -9809px;
+		max-width: 1920px; 
+	}
+
+	#indepth_parallax_back{
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		background-attachment: scroll;
+		background-position: 50%;
+		background-size: auto 100%;
+	}
+
+	.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+	}
+
+	.indepth_pages img{
+		width: auto;
+	}
+	
+	.indepth_pages .indepth_page_content img{
+		width: 100%;
+	}
+
+	.indepth_more_container{
+		width: 264px;
+		margin: auto;
+	}
+	
+	#indepth_cover_view{
+		height: 817px;
+		z-index: 0;
+		margin-top: 0px;
+		background-color: rgba(255,255,255,0) 
+	}	
+	
+
+	
+	
+
+}
+
+
+
+@media screen and (max-width: 610px) {
+	
+	.indepth_photo img{
+		width: 100%;
+	}
+
+	.indepth_pages .indepth_page_content img{
+		width: 100%;
+	}
+	
+	.indepth_video iframe {
+		width: 100%;
+		height: auto;
+	}
+	#indepth_cover .indepth_titlle_container {
+		width: 100%;
+	}
+
+	.indepth_background img{
+		min-width: 1500px;	
+		width: 1500px;
+	}
+	
+	#indepth_cover{
+		height: 540px;	
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+
+	#indepth_cover_view .indepth_background{
+		display: block;
+		right: -9840px;
+		height: 640px;
+		bottom: -9809px;
+		max-width: 1920px; 
+	}
+	
+	.indepth_quote_right, .indepth_quote_left{
+		width: auto;
+		margin: 0 0 25px;
+	}
+		
+	.indepth_anuncio_section {
+		width: 100%;
+		height: 200px;
+		background: none;
+	}	
+
+	#indepth_footer{
+		display: inline-block;
+		height: auto;
+		line-height: normal;
+		vertical-align: middle;
+		margin-bottom: 0px;
+	}
+	
+	#indepth_footer .indepth_page_body{
+		display: inline-block;
+		position: relative;
+	}
+	
+	#indepth_footer .indepth_text{
+		display: inline-block;
+	}
+	
+	#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#indepth_anuncio_section{
+		width: 100%;
+		height:400px;
+		background: none;
+	}
+	
+	#indepth_parallax_back{
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		background-attachment: scroll;
+		background-position: 50%;
+		background-size: auto 100%;
+	}
+	
+	#content {
+		position: relative;
+		background-color: white;
+	}
+	
+	.indepth_page_content .indepth_video {
+		width: 100%;
+		height: 287px;
+	}
+	
+	
+	#indepth_ads{
+		height: 600px;
+	}
+	#indepth_ads #indepth_parallax_back {
+		background-image: url("../images/nike_ad_movil.jpg");
+		background-size: 100%;
+		height: 100%;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+	
+	#indepth_cover .indepth_page_body {
+		top: 320px;
+		position: relative;
+	}
+	
+	.indepth_image_left {
+		float: none;
+		margin: 15px auto;
+	}
+
+}
+
+/*
+**  340px;
+*/
+
+@media screen and (max-width: 340px) {
+	.indepth_title{
+		font-size: 30px;
+	}
+	
+	#indepth_ads{
+		height: 400px;
+	}
+	
+	.indepth_photo  img{
+		width: 100%;
+	}
+	
+	.indepth_video{
+		width: 100%;
+		height: auto;
+	}
+		
+	.indepth_video iframe {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.indepth_title{
+		font-size: 30px;
+	}
+
+	.indepth_photo img{
+		width: 100%;
+	}
+	.indepth_video{
+		width: 100%;
+		height: auto;
+	}
+	.indepth_video iframe {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-height: 340px) {
+
+	.indepth_background img{
+		min-width: 1500px;	
+		width: 1500px;
+	}
+	
+	
+	#indepth_cover{
+		height: 360px;	
+	}
+	
+	#indepth_cover .indepth_page_body {
+		top: 180px;
+		position: relative;
+		margin-left: 15px;
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_subtitle{
+		margin-top: -10px;
+	}
+	
+	.indepth_image_question {
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_background{
+		display: block;
+		bottom: -9499px;
+		height: 360px;
+	}
+	
+	#indepth_cover_view .indepth_background{
+		display: block;
+		bottom: -9499px;
+		height: 360px;
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+	
+	#indepth_cover .indepth_page_body .indepth_subtitle{
+		margin-top: 0px;
+	}
+	
+	.indepth_page_content .indepth_video {
+		width: 100%;
+		height: 287px;
+	}
+	
+	#indepth_ads{
+		height: 270px;
+	}
+	#indepth_ads #indepth_parallax_back {
+		background-image: url("../images/nike_ad_land.jpg");
+		background-size: 100%;
+		height: 100%;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+	
+	#indepth_cover  #indepth_parallax_back {
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-attachment: scroll;
+	background-position: 50%;
+	background-size: auto 100%;
+	}
+	.indepth_image_left {
+		width: 250px;
+		margin-bottom: 0px;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+.indepth_africa_mapa{
+	width: 100%;
+	height: auto;
+}
+
+#indepth_mapa_title{
+	position: relative;
+	width:  300px;
+	margin: 0px auto;
+	top:0px;
+	left: 0px;
+}
+
+#indepth_mapa_title img{
+	width: 100%;
+	margin: 0px 0px 15px 0;
+	
+}
+
+#indepth_mapa_map_imgconteneiner{
+	position: relative;
+	width: 300px;
+	height: auto;
+	margin: 10px auto;
+	
+}
+
+#indepth_mapa_map_imgconteneiner img{
+	width: 100%;
+	top:0px;
+	height: auto;
+}
+
+#indepth_mapa_map{
+	position: relative;
+}
+
+#indepth_mapa_text{
+	position: relative;
+	width: 500px;
+	left: 0px;
+	margin: auto;
+	font-size: 19px;
+	height: 240px;
+}
+
+.indepth_mapa_text_content{
+	width: 500px;
+}
+
+.indepth_mapa_text_title{
+	font-size: 24px;
+}
+
+#indepth_mapa_controles{
+	position: relative;
+	margin: 15px auto;
+	width: 201px;
+	bottom: 0;
+	right: 0;
+}
+
+#indepth_mapa_controles li{
+	width: 34px;
+	margin-right: 40px;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+.indepth_africa_mapa{
+	width: 100%;
+	height: auto;
+}
+
+#indepth_mapa_title{
+	position: relative;
+	width:  200px;
+	margin: 0px auto;
+	top:0px;
+	left: 0px;
+}
+
+#indepth_mapa_title img{
+	width: 100%;
+	margin: 0px 0px 15px 0;
+	
+}
+
+#indepth_mapa_map_imgconteneiner{
+	position: relative;
+	width: 200px;
+	height: auto;
+	margin: 10px auto;
+	
+}
+
+#indepth_mapa_map_imgconteneiner img{
+	width: 100%;
+	top:0px;
+	height: auto;
+}
+
+#indepth_mapa_map{
+	position: relative;
+}
+
+#indepth_mapa_text{
+	position: relative;
+	width: 300px;
+	left: 0px;
+	margin: auto;
+	font-size: 19px;
+	height: 240px;
+}
+
+.indepth_mapa_text_content{
+	width: 300px;
+}
+
+.indepth_mapa_text_title{
+	font-size: 24px;
+}
+
+
+
+
+ 
+
+/*#indepth_mapa_text{
+	height: 210px;
+	width: 520px;
+	color: white;
+	bottom: 0px;
+	left: 20px;
+	font-family: 'Roboto';
+	font-size: 21px;
+	font-weight: 400;
+	overflow: hidden;
+}*/
+
+}
+
+@media screen and (max-height: 400px) {
+.indepth_africa_mapa{
+	width: 480px;
+	height: 320px;
+}
+
+#indepth_mapa_title{
+	position: absolute;
+	width: 170px;
+	top:23px;
+	left: 15px;
+}
+
+#indepth_mapa_text{
+	position: absolute;
+	width: 460px;
+	left: 10px;
+	margin: auto;
+	font-size: 19px;
+	height: 170px;
+}
+
+.indepth_mapa_text_content{
+	width: 460px;
+}
+#indepth_mapa_map{
+	position: absolute;
+}
+
+#indepth_mapa_map_imgconteneiner{
+	height: 150px;
+	position: relative;
+	width: auto;
+	margin: 0px;
+}
+
+#indepth_mapa_map_imgconteneiner img{
+	height: 100%;
+	width: auto;
+	right: 10px;
+	top:5px;
+}
+
+#indepth_mapa_controles{
+	position: absolute;
+	margin: 0;
+	width: 181px;
+	top: 100px;
+	left: 195px;
+}
+
+#indepth_mapa_controles li{
+	margin-right: 30px;
+}
+
+}
